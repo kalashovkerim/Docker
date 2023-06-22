@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\turbo_azure.props" />
+</Project>

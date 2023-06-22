@@ -1,0 +1,12 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Add Car";
+}
+<form method="post" enctype="multipart/form-data">
+    <input type="file" name="myFile" />
+    <input required type="text" name="brand"  class="form-control" placeholder="Brand" aria-label="Brand" aria-describedby="basic-addon1">
+    <input required type="text" name="model" class="form-control" placeholder="Model" aria-label="Brand" aria-describedby="basic-addon1">
+    <input required type="text" name="year" class="form-control" placeholder="Year" aria-label="Brand" aria-describedby="basic-addon1">
+    <button type="submit" class="btn btn-success">Add</button>
+</form>
